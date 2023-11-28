@@ -1,7 +1,6 @@
 package com.example.toDoList.dto;
 
-import jakarta.validation.constraints.Email;
-import jakarta.validation.constraints.Size;
+import javax.validation.constraints.*;
 
 public class UpdateUserDto {
 

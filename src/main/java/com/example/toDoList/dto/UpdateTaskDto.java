@@ -2,8 +2,7 @@ package com.example.toDoList.dto;
 
 import com.example.toDoList.util.TaskStatus;
 import com.fasterxml.jackson.annotation.JsonFormat;
-import jakarta.validation.constraints.Future;
-import jakarta.validation.constraints.Size;
+import javax.validation.constraints.*;
 
 import java.time.LocalDateTime;
 

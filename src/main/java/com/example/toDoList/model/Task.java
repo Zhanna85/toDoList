@@ -2,9 +2,9 @@ package com.example.toDoList.model;
 
 import com.example.toDoList.util.TaskStatus;
 import com.example.toDoList.util.TypesTasks;
-import jakarta.persistence.*;
 import org.springframework.format.annotation.DateTimeFormat;
 
+import javax.persistence.*;
 import java.time.LocalDateTime;
 import java.util.Objects;
 
@@ -104,10 +104,6 @@ public class Task {
 
     public LocalDateTime getCreatedOn() {
         return createdOn;
-    }
-
-    public void setCreatedOn(LocalDateTime createdOn) {
-        this.createdOn = createdOn;
     }
 
     @Override

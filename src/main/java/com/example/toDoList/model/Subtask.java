@@ -1,8 +1,9 @@
 package com.example.toDoList.model;
 
 import com.example.toDoList.util.TypesTasks;
-import jakarta.persistence.*;
 
+
+import javax.persistence.*;
 import java.util.Objects;
 
 import static com.example.toDoList.util.TypesTasks.SUBTASK;

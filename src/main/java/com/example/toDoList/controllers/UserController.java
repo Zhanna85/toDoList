@@ -4,7 +4,7 @@ import com.example.toDoList.dto.NewUserDto;
 import com.example.toDoList.dto.UpdateUserDto;
 import com.example.toDoList.dto.UserDto;
 import com.example.toDoList.service.UserService;
-import jakarta.validation.Valid;
+import javax.validation.Valid;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
